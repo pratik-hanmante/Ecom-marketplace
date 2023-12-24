@@ -46,9 +46,7 @@ export default function Home() {
             <Button variant='ghost'>
               Our quality promise &rarr;
             </Button>
-            <Button variant="ghost">
-              Masti &rarr;
-            </Button>
+            
           </div>
         </div>
 
