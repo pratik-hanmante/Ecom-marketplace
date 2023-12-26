@@ -29,14 +29,19 @@ const {
 
 const {mutate, isLoading} = 
 trpc.auth.createPayloadUser.useMutation({
-
+    
 })
 
+
+
 const onSubmit = ({
-    email, 
+    email,
     password,
+
 }: TAuthCredentialValidator) => {
     mutate({email, password})
+   
+    
     
 }
 
